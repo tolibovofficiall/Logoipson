@@ -1,0 +1,150 @@
+#section-4 {
+    padding: 150px 290px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+
+    .BG-img {
+        position: absolute;
+        bottom: 40px;
+        right: 1px;
+    }
+
+    h2 {
+        height: 56px;
+        width: 669px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 56px;
+        text-align: center;
+        color: #001A49;
+    }
+
+    .quetions-box {
+        margin-top: 60px;
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .img-box {
+            cursor: pointer;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            transition: .7s linear all;
+            width: 55px;
+            height: 55px;
+            transition: .4s linear;
+            background: linear-gradient(35.71deg, #ffd7a94b 9.11%, #dea9801e 71.64%);
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+            &:active {
+                scale: .90;
+            }
+
+        }
+
+        h3 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #001A49;
+        }
+
+        .big-box {
+            padding: 30px;
+            height: 330px;
+            width: 100%;
+            mix-blend-mode: normal;
+            border-radius: 21px;
+            border: 2px solid #dddd;
+            transition: .5s linear;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+            &:hover {
+                transform: translateX(-20px);
+                background-color: rgb(252, 240, 255);
+                box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+                .img-box {
+                    background-color: #edacff;
+                }
+            }
+
+            .top {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+
+            }
+
+            .more-text {
+                margin-top: 20px;
+                height: 182px;
+                width: 787px;
+                right: 16.82%;
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 29px;
+                color: #4F596A;
+            }
+        }
+
+        .smoll-box {
+            padding: 30px;
+            justify-content: space-between;
+            height: 104px;
+            display: flex;
+            align-items: center;
+            transition: .5s linear;
+            width: 100%;
+            border-radius: 21px;
+            border: 2px solid #dddd;
+
+            &:hover {
+                transform: translateX(-20px);
+                background-color: rgb(252, 240, 255);
+                box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+                .img-box {
+                    background-color: #edacff;
+                }
+            }
+
+        }
+
+
+    }
+
+    .bottom-box {
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .get-money {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 2.57143px;
+            text-transform: uppercase;
+            color: #CD10FF;
+            padding: 7px 35px;
+            background: linear-gradient(90deg, #ffd7a943 0%, #ffae7074 100%);
+            mix-blend-mode: normal;
+            border-radius: 33px;
+        }
+    }
+}

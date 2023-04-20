@@ -1,0 +1,301 @@
+@media (max-width: 576px) {
+    .SM-btn {
+        padding: 5px 10px !important;
+    }
+
+    .BG-btn {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+
+    #header {
+        padding: 0px 15px !important;
+
+        .logos {
+            width: 150px;
+        }
+
+        .a-href {
+            display: none;
+        }
+
+        .SM-btn {
+            display: none;
+        }
+
+        .bars {
+            display: block !important;
+        }
+    }
+
+    #section-1 {
+        height: 100vh !important;
+        padding: 10px !important;
+        flex-direction: column;
+
+        .main-box {
+            padding: 20px !important;
+            width: 100% !important;
+            align-items: center !important;
+
+            h1 {
+                width: 300px !important;
+                font-size: 40px !important;
+                line-height: 145% !important;
+            }
+
+            .text {
+                bottom: 10px;
+                width: 280px !important;
+                position: relative !important;
+                font-size: 15px !important;
+                margin-bottom: 20px;
+            }
+
+            .avtors {
+                margin-top: 80px !important;
+                flex-direction: column;
+            }
+        }
+
+        .play-box {
+            display: none !important;
+        }
+    }
+
+    #section-2 {
+        align-items: center !important;
+        padding: 20px !important;
+
+        .img-1 {
+            width: 150px;
+            left: -80px !important;
+        }
+
+        .img-2 {
+            width: 100px !important;
+        }
+
+        .statistika {
+            padding: 30px !important;
+            flex-direction: column;
+            width: 280px !important;
+
+            .div {
+                border-right: none !important;
+                border-bottom: 1px solid #b3b3b3;
+            }
+
+            .boxes {
+                padding: 40px 0px !important;
+
+                h2 {
+                    margin-bottom: 10px;
+                    font-size: 35px !important;
+                }
+            }
+
+
+        }
+
+        .text-box {
+            margin-bottom: 20px;
+
+            h2 {
+                font-size: 30px !important;
+            }
+
+            .lorem-text {
+                width: 300px !important;
+                font-size: 15px !important;
+            }
+        }
+
+        .analizing-box {
+
+            .box {
+                padding: 45px 30px !important;
+                height: 130px !important;
+
+                .icon {
+                    width: 40px !important;
+                    height: 40px !important;
+
+                    img {
+                        width: 30px;
+                    }
+                }
+
+                h3 {
+                    font-size: 20px !important;
+                }
+
+                .savollar {
+                    width: 200px !important;
+                    font-size: 10px !important;
+                    line-height: 20px !important;
+                }
+
+                .vedio-box {
+                    display: none !important;
+                }
+
+                &:hover {
+                    .icon {
+                        transform: translateX(-5px) !important;
+                    }
+                }
+            }
+        }
+
+        .about-user {
+            flex-direction: column;
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center !important;
+
+                h2 {
+                    width: 300px !important;
+                    font-size: 27px !important;
+                    line-height: 35px !important;
+                }
+
+                .text {
+                    position: relative;
+                    bottom: 30px;
+                    width: 300px !important;
+                    font-size: 15px !important;
+                }
+            }
+
+            .user-img {
+                margin-top: 30px;
+
+                img {
+
+                    width: 280px !important;
+                }
+
+            }
+        }
+    }
+
+    #section-3 {
+        overflow: hidden !important;
+        padding: 70px 20px !important;
+
+        .text-box {
+            h2 {
+                font-size: 28px !important;
+            }
+
+            .text {
+                width: 330px !important;
+                font-size: 15px !important;
+            }
+
+        }
+
+        .main-scroll {
+            position: relative;
+            left: 500px;
+            align-items: center;
+            height: 270px !important;
+
+            .box {
+                padding: 30px !important;
+                height: 100% !important;
+
+                .coment-text {
+                    font-size: 15px !important;
+                }
+
+                .users {
+                    margin-top: 0px !important;
+                }
+            }
+        }
+    }
+
+    #section-4 {
+        padding: 30px 20px !important;
+
+        h2 {
+            width: 300px !important;
+            font-size: 30px !important;
+            line-height: 40px !important;
+        }
+
+        .BG-img {
+            display: none;
+        }
+
+        .img-box {
+            width: 80px !important;
+            height: 40px !important;
+        }
+
+        .box-1 {
+            width: 60px !important;
+            height: 40px !important;
+        }
+
+        .box-2 {
+            width: 40px !important;
+            height: 40px !important;
+        }
+
+        .box-3 {
+            width: 60px !important;
+            height: 40px !important;
+        }
+
+        .big-box {
+            height: 450px !important;
+
+            &:hover {
+                transform: translateX(0px) !important;
+            }
+
+            .more-text {
+                width: 100% !important;
+                line-height: 20px !important;
+                font-size: 13px !important;
+            }
+        }
+
+        .smoll-box {
+            &:hover {
+                transform: translateX(0px) !important;
+            }
+        }
+    }
+
+    #footer-1 {
+        padding: 60px 20px !important;
+
+        .logos {
+            gap: 20px;
+            flex-direction: column;
+
+            .input {
+                height: 40px !important;
+                padding: 10px 20px !important;
+                width: 100% !important;
+                font-size: 10px !important;
+            }
+
+            .SM-btn {
+                display: none;
+            }
+        }
+
+        table {
+            display: none !important;
+        }
+    }
+
+
+}
